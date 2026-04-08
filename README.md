@@ -1,12 +1,11 @@
 #  Fast Port Scanner
 
-A fast multi-threaded TCP port scaneer built with python using socket and threading 
+A fast multi-threaded TCP port scanner built with Python using sockets and threading.
 
-##  Features
-- Fast scanning using ThreadPoolExecutor
-- Custom port range scanning
-- Simple and easy to use
-
+## New Features
+- Detects running service (SSH,HTTP,ets.)
+- show service version (if available)
+- 
 ##  Project File
 - fast_port_scanner.py
 
@@ -16,14 +15,10 @@ A fast multi-threaded TCP port scaneer built with python using socket and thread
 python fast_port_scanner.py
 ```
 ##  Example
-
-Enter target IP or domain: 127.0.0.1  
-Enter start port: 20  
-Enter end port: 100  
-
-Scan Complete!  
-Open Ports: [22, 80]
-
+```bash
+Port 22 - SSH | version: Open SSH_8.2
+Port 80 - HTTP | version: Apache/ 2.4.41
+```
 ## Screenshot
 ![output](screenshot.png.png)
 
