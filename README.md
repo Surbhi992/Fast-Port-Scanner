@@ -20,4 +20,4 @@ python fast_port_scanner.py
 Port 22 → SSH | Version: OpenSSH_8.2
 Port 80 → HTTP | Version: Apache/2.4.41
 ```
-![output](screenshot.png) 
+![output](screenshot.png.png) 
