@@ -1,6 +1,6 @@
 # 🔐 Fast Port Scanner
 
-A fast multi-threaded port scanner built with Python.
+A fast multi-threaded TCP port scaneer built with python using socket and threading 
 
 ## 🚀 Features
 - Fast scanning using ThreadPoolExecutor
